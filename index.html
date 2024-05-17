@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>music app </title>
+  <link rel="stylesheet" href="style.css" />
+<script src="https://kit.fontawesome.com/c4254e24a8.js"crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container">
+       <div class="box">
+  <nav>
+    <div class="circle">
+ <i class="fa-solid fa-angle-left">🔙</i>
+     
+  </div>
+
+    <div class="circle">
+ <i class="fa-solid fa-bars">&#9776;</i>
+
+     </div>
+</nav>
+     <img src="img/20240515144138.png" class="song-image" />
+
+     <h1>Walking chemical</h1>
+     <p>louse fonsi ft dorn</p>
+    
+    <audio controls id="song">
+     <source src="img/20240515151453.mov"height="50px">
+      
+     </audio>
+     
+     <input type="range" value="0" id="progress">
+     <div class="controls">
+           <div><i class="fa-solid fa-backward">⏪</div>
+          <div onClick="playPause()"><i class="fa-solid  play  pause" id="ctlicon">▶️</div>
+          <div><i class="fa-solid fa-foward">⏩</div>
+          
+      </div>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
